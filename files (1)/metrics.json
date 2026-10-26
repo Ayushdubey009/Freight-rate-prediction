@@ -1,0 +1,59 @@
+{
+  "cv": [
+    {
+      "fold": "train<2025-07-01 -> test 2025-07-01..2025-09-01",
+      "model_MAE": 130.31534018718534,
+      "model_RMSE": 629.6780970368428,
+      "model_MAPE_pct": 6.153892235715488,
+      "model_MedAPE_pct": 2.067131168905823,
+      "baseline_MAE": 222.7312102524866,
+      "baseline_RMSE": 662.874707071885,
+      "baseline_MAPE_pct": 10.105531489609128,
+      "baseline_MedAPE_pct": 6.699325989532114
+    },
+    {
+      "fold": "train<2025-08-01 -> test 2025-08-01..2025-10-01",
+      "model_MAE": 127.80776514463022,
+      "model_RMSE": 622.0563949840201,
+      "model_MAPE_pct": 5.942722842263394,
+      "model_MedAPE_pct": 2.0974662471526093,
+      "baseline_MAE": 235.20872354071176,
+      "baseline_RMSE": 663.0463390676565,
+      "baseline_MAPE_pct": 10.278765304671461,
+      "baseline_MedAPE_pct": 7.0791995207752105
+    },
+    {
+      "fold": "train<2025-09-01 -> test 2025-09-01..2025-11-01",
+      "model_MAE": 117.76034157964469,
+      "model_RMSE": 637.5955412612677,
+      "model_MAPE_pct": 4.918760367469663,
+      "model_MedAPE_pct": 2.140475558479255,
+      "baseline_MAE": 229.09657316845033,
+      "baseline_RMSE": 670.6599545300177,
+      "baseline_MAPE_pct": 10.487418950668491,
+      "baseline_MedAPE_pct": 6.801434855590214
+    }
+  ],
+  "unseen_city": {
+    "MAE": 81.77624347717988,
+    "RMSE": 532.1578522239957,
+    "MAPE_pct": 3.724802004957406,
+    "MedAPE_pct": 1.0351769054995754
+  },
+  "importance": {
+    "log_dist": 0.06655,
+    "equipment_code": 0.02426,
+    "quote_dev": 0.02155,
+    "weight_abs": 0.00411,
+    "quote_signal": 0.00227,
+    "market_idx": 0.0008,
+    "pickup_lat": 0.00073,
+    "delivery_lat": 0.00058,
+    "pickup_lon": 0.00044,
+    "delivery_lon": 0.0004,
+    "market_idx_missing": 0.0,
+    "distance": 0.0,
+    "weight_missing": 0.0,
+    "dist_ratio": -6e-05
+  }
+}
